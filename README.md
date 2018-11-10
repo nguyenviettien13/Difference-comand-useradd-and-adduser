@@ -1,8 +1,6 @@
 # Difference-comand-useradd-and-adduser
- =====
-  **_Khái quát về tài khoản trong linux và sự khác nhau giữa 2 cách tạo tài khoản 'useradd' và 'adduser'_**
- Mục lục
- =====
+## Khái quát về tài khoản trong linux và sự khác nhau giữa 2 cách tạo tài khoản 'useradd' và 'adduser'_**
+## Mục lục
 ## 1. Khái niệm
 Linux là một nền tảng sử dụng đa người dùng nên trong Linux có thể tạo nhiều người sử dụng. Mỗi ngưởi sử dụng được đặc chưng bởi một tài khoản đăng nhập hệ thống (account) và một password.
 
