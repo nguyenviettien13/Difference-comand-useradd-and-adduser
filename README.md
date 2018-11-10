@@ -57,6 +57,6 @@ UID (User ID) là một số nguyên dương đại diện cho từng người s
 ````
 	# vi /etc/passwd
 ````
-<img src="https://imgur.com/a/s8o7dGl">
+<img src="http://i.imgur.com/VLJljRL.png">
 
 
