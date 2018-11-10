@@ -58,5 +58,38 @@ UID (User ID) là một số nguyên dương đại diện cho từng người s
 	# vi /etc/passwd
 ````
 <img src="http://i.imgur.com/VLJljRL.png">
+##### b. Chỉ số GID
+GID (Group ID): Group là một nhóm gồm nhiều tài khoản. Trong Linux có thể tạo ra nhiều group và trong mỗi group chứa một số lượng tài khoản người dùng: VD: group "congnhan" chứa người dùng là công nhân group "vanphong" chứa người dùng làm văn phòng
+<img src="http://i.imgur.com/VLJljRL.png">
+##### 2. Cách tạo người sử dụng
+Để có thể tạo được tài khoản trong Linux nhất thiết bạn phải đăng nhập bằng tài khoản root. Xét riêng trường hợp tạo tài khoản trong Linux bằng câu lệnh có 2 cách được sử dụng: useradd và adduser. Tôi sẽ sử dụng cả 2 câu lệnh này để tạo tài khoản và chỉ ra sự khác nhau giữa 2 câu lệnh này.
+ ***_Lưu ý: để có thể thấy rõ sự khác nhau giữa hai câu lệnh bạn nên sử dụng Linux có phiên bản là Ubuntu
+###### a. Sử dụng lệnh useradd
+Tạo tài khoản:
+ ```
+	#useradd [option] <Tên tài khoản>
+ ```
+*Trong đó:*Trường option bao gồm các tùy chọn
+|Tùy chọn | Ý nghĩa |
+|---------|---------|
+|-p | nhập password cho tài khoản |
+|-c | thêm thông tin cho tài khoản |
+|-d | chỉ đường dẫn chưa thư mục home của tài khoản, nếu không chỉ định thì mặc định nó sẽ tạo thư mục tại /home |
+|-g | chỉ ra nhóm tài khoản muốn thuộc, nếu không chỉ mặc định nó sẽ tạo ra một group để cho tài khoản đó vào |
+|-s | xác định shell cho hệ thống, mặc định là /bin/bash |
+|-u | xác định chỉ số UID của người dùng |
+|-e | có định dạng là yyyy-mm-dd xác định thời gian hệ hạn của tài khoản |
+|-f | yyyy-mm-dd xác định số ngày password sẽ vô hiệu hóa khi tài khoản hết hạn |
+
+Đây là một số tùy chọn thường được sử dụng. Ngoài ra nó còn một số các tùy chọn khác nữa, bạn có thể dùng command để biết thêm các tùy chọn khác ` man useradd `.
+
+VD: #useradd -c 'Nguyen Hoai Nam' -d /home/hoainam -e 2014-12-11 -p admin1234 hoainam
+
+###### b. Sử dụng lệnh adduser
+
+
+
+
+
 
 
