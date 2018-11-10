@@ -72,7 +72,6 @@ Tạo tài khoản:
  ```
 
 * Trong đó: * Trường option bao gồm các tùy chọn
-````
  |Tùy chọn | Ý nghĩa |
  |---------|---------|
  |-p | nhập password cho tài khoản |
@@ -83,7 +82,7 @@ Tạo tài khoản:
  |-u | xác định chỉ số UID của người dùng |
  |-e | có định dạng là yyyy-mm-dd xác định thời gian hệ hạn của tài khoản |
  |-f | yyyy-mm-dd xác định số ngày password sẽ vô hiệu hóa khi tài khoản hết hạn |
-````
+
 Đây là một số tùy chọn thường được sử dụng. Ngoài ra nó còn một số các tùy chọn khác nữa, bạn có thể dùng command để biết thêm các tùy chọn khác ` man useradd `.
 
 VD: #useradd -c 'Nguyen Viet Tien' -d /home/tiennv -e 2018-11-9 -p abcxyz tiennv
