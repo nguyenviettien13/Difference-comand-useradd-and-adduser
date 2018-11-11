@@ -90,9 +90,33 @@ Tạo tài khoản:
 VD: #useradd -c 'Nguyen Viet Tien' -d /home/tiennv -e 2018-11-9 -p abcxyz tiennv
 
 ###### b. Sử dụng lệnh adduser
+ ```
+	#adduser <tên tài khoản>
+ ```
+Sau khi nhập xong câu lệnh lúc này hệ thống sẽ hiện ra các câu hỏi để bạn có thể nhập vào như thông tin về mật khẩu, tên, địa chỉ nhà, số điện thoại,...kết thúc quá trình hệ thống sẽ hỏi về xác thực nếu bạn cho yes thì một tài khoản sẽ được tạo với những thông tin bạn khai báo nếu chọn no quá trình tạo tài khoản sẽ hủy
 
 
-
+ ````
+tiennv000@td:~$ sudo adduser tiennv
+[sudo] password for tiennv000: 
+Adding user `tiennv' ...
+Adding new group `tiennv' (1001) ...
+Adding new user `tiennv' (1001) with group `tiennv' ...
+Creating home directory `/home/tiennv' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for tiennv
+Enter the new value, or press ENTER for the default
+	Full Name []: Nguyen Viet Tien
+	Room Number []: 405
+	Work Phone []: 523898
+	Home Phone []: 898523
+	Other []: Nothing
+Is the information correct? [Y/n] Y
+tiennv000@td:~$ 
+ ````
 
 
 
