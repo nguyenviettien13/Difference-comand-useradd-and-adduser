@@ -122,4 +122,10 @@ Khi bạn dùng phiên bản Debian tiêu biểu là Ubuntu bạn sẽ thấy r�
 
 Còn đối với phiên bản như Centos. sự khác nhau ở đây là ít hơn. Lúc đó khi sử dụng adduser hệ thống sẽ tạo luôn một tài khoản và bạn cần thực hiện thêm một số câu lệnh để có thể thêm mật khẩu và thông tin liên quan
 
+##### 4. Một số lệnh liên quan
+Đối với nhóm lênh này bạn phải vào tài khoản root để có thể thực hiện được
 
+ - Tạo group:
+ ```
+		#groupadd <Tên group>
+ ```
