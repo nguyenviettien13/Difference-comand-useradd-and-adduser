@@ -117,7 +117,9 @@ Enter the new value, or press ENTER for the default
 Is the information correct? [Y/n] Y
 tiennv000@td:~$ 
  ````
+##### 3. Sự khác nhau giữa 2 câu lệnh
+Khi bạn dùng phiên bản Debian tiêu biểu là Ubuntu bạn sẽ thấy rõ sự khác nhau giữa 2 câu lệnh này. Câu lệnh useradd sử dụng tất cả các thông số mà khi người root nhập vào để tạo tài khoản. Còn đối với cách tạo sử dụng câu lệnh adduser hệ thống sẽ tương tác trực tiếp với người tạo để đưa ra các câu hỏi. Qua đó giúp người sử dụng dễ dàng tạo hơn. Còn về quan điểm cá nhân tôi thích các sử dụng useradd hơn vì đơn giản là nó sẽ phát huy được tác dụng khi tôi viết một scrips.
 
-
+Còn đối với phiên bản như Centos. sự khác nhau ở đây là ít hơn. Lúc đó khi sử dụng adduser hệ thống sẽ tạo luôn một tài khoản và bạn cần thực hiện thêm một số câu lệnh để có thể thêm mật khẩu và thông tin liên quan
 
 
