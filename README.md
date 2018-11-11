@@ -129,3 +129,23 @@ Còn đối với phiên bản như Centos. sự khác nhau ở đây là ít h�
  ```
 		#groupadd <Tên group>
  ```
+ - Xóa group
+ ````
+	#groupdel <Tên group>
+ ````
+ - Xóa tài khoản người dùng
+ ```
+	#userdel <Tên tài khoản người dùng>
+ ```
+ - Chỉnh sửa thông tin người dùng
+ ````
+	#usermod [option] [Nội dung chỉnh sửa] <Tài khoản người dùng>
+ ````
+ - Thay đổi password cho tài khoản người dùng Đối với câu lệnh passwd bạn có thể thay đổi tài khoản của chính bạn hoặc có thể đăng nhập bằng tài khoản root để thay đổi tài khoản bất kì của người dùng
+ ```
+	#passwd <Tên tài khoản người dùng> #Sau đó hệ thống sẽ hỏi bạn thông tin về password mới
+ ```
+
+
+
+
